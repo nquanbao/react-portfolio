@@ -27,8 +27,8 @@ export default function Body() {
   return (
     <div>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
-          {renderPage() }
-          <Footer  />
+        {renderPage() }
+        <Footer  />
     </div>
   );
 }

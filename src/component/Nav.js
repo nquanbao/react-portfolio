@@ -9,7 +9,7 @@ const styles = {
     marginLeft: '700px'
   },
   li: {
-    margin: '5px'
+    margin: '5px',
   },
   h2: {
     marginLeft: '100px'
@@ -18,7 +18,7 @@ const styles = {
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div class="nav">
     <ul className="nav nav-tabs" style={styles.ul}>
       <h2 style={styles.h2}>Bao Nguyen</h2>
       <div class="d-flex align-items-end" style={styles.div}>

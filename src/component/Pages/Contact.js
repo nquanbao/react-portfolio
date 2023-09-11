@@ -5,7 +5,7 @@ const styles = {
     div: {
         marginLeft: '100px'
     },
-    p: {
+    h2: {
         paddingTop: '30px',
         fontSize: '30px'
     },
@@ -17,6 +17,9 @@ const styles = {
         width: '600px',
         marginTop: '5px',
         height: '200px'
+    },
+    p: {
+      marginTop: '3px'
     }
 }
 
@@ -72,8 +75,9 @@ function Contact() {
     };
     return (
       <div style={styles.div}>
-        <p style={styles.p}>Contact</p>
+        <h2 style={styles.h2}>Contact</h2>
         <form  className="form">
+          <p style={styles.p}>Email:</p>
           <input
             value={email}
             name="email"
@@ -82,7 +86,7 @@ function Contact() {
             placeholder="email"
             style={styles.form}
           />
-          <br></br>
+          <p>Username:</p>
           <input
             value={userName}
             name="userName"
@@ -91,7 +95,7 @@ function Contact() {
             placeholder="username"
             style={styles.form}
           />
-          <br></br>
+          <p>Message:</p>
           <textarea
             value={message}
             name="message"
