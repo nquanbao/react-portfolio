@@ -1,0 +1,9 @@
+body {
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    color: white;
+};
+
+#nav {
+    background-image: url('../images/navbackground.jpeg');
+}

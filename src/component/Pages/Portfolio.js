@@ -1,18 +1,35 @@
 import React from "react";
+import avatar from "../../assets/images/avatar.png";
+
+const styles = {
+    div: {
+        marginLeft: '100px',
+        marginRight: '300px'
+    },
+    h2: {
+        marginTop: '30px',
+        fontSize: '30px'
+    },
+    img: {
+        margin: '20px',
+        width: '400px',
+        hight: '400px'
+    }
+}
 
 function Portfolio () {
     return (
-        <>
-            <h2>Portfolio</h2>
+        <div style={styles.div}>
+            <h2 style={styles.h2}>Portfolio</h2>
             <div class="d-flex align-content-start flex-wrap">
-                <img src="..." class="rounded mx-auto d-block" alt="..."/>
-                <img src="..." class="rounded mx-auto d-block" alt="..."/>
-                <img src="..." class="rounded mx-auto d-block" alt="..."/>
-                <img src="..." class="rounded mx-auto d-block" alt="..."/>
-                <img src="..." class="rounded mx-auto d-block" alt="..."/>
-                <img src="..." class="rounded mx-auto d-block" alt="..."/>
+                <img src={avatar} class="rounded mx-auto d-block" alt="..." style={styles.img}/>
+                <img src={avatar} class="rounded mx-auto d-block" alt="..." style={styles.img}/>
+                <img src={avatar} class="rounded mx-auto d-block" alt="..." style={styles.img}/>
+                <img src={avatar} class="rounded mx-auto d-block" alt="..." style={styles.img}/>
+                <img src={avatar} class="rounded mx-auto d-block" alt="..." style={styles.img}/>
+                <img src={avatar} class="rounded mx-auto d-block" alt="..." style={styles.img}/>
             </div>
-        </>
+        </div>
     )
 }
 

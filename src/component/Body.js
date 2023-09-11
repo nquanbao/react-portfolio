@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
+import Footer from './Footer';
 import AboutMe from './Pages/AboutMe';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
@@ -23,10 +24,21 @@ export default function Body() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  const styles = {
+    render: {
+      hight: '100%',
+      marginTop: '30px',
+      marginBottom: '30px'
+    }
+  }
+
   return (
-    <div>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+    <div style={styles.div}>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div style={styles.render}>
+        {renderPage() }
+      </div>
+        <Footer  />
     </div>
   );
 }
