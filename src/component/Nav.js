@@ -18,7 +18,8 @@ const styles = {
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs" style={styles.ul} id ="nav">
+    <div>
+    <ul className="nav nav-tabs" style={styles.ul}>
       <h2 style={styles.h2}>Bao Nguyen</h2>
       <div class="d-flex align-items-end" style={styles.div}>
         <li className="nav-item" style={styles.li}>
@@ -59,6 +60,7 @@ function Nav({ currentPage, handlePageChange }) {
         </li>
       </div>
     </ul>
+    </div>
   );
 }
 

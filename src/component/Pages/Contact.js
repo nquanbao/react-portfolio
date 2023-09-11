@@ -5,8 +5,8 @@ const styles = {
     div: {
         marginLeft: '100px'
     },
-    h2: {
-        marginTop: '30px',
+    p: {
+        paddingTop: '30px',
         fontSize: '30px'
     },
     form: {
@@ -19,12 +19,13 @@ const styles = {
         height: '200px'
     }
 }
+
 function Contact() {
     // Create state variables for the fields in the form
-    // We are also setting their initial values to an empty string
+    // also setting their initial values to an empty string
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
-    const [message, setPassword] = useState('');
+    const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
   
     const handleInputChange = (e) => {
@@ -33,13 +34,13 @@ function Contact() {
       const inputType = target.name;
       const inputValue = target.value;
   
-      // Based on the input type, we set the state of either email, username, and password
+      // Based on the input type, we set the state of either email, username, and message
       if (inputType === 'email') {
         setEmail(inputValue);
       } else if (inputType === 'userName') {
         setUserName(inputValue);
       } else {
-        setPassword(inputValue);
+        setMessage(inputValue);
       }
     };
   
@@ -65,23 +66,13 @@ function Contact() {
             'Messgase is required!!!'
           );
       }
-      // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    //   if (!validateEmail(email)) {
-    //     setErrorMessage('Email or username is invalid');
-    //     // We want to exit out of this code block if something is wrong so that the user can correct it
-    //     return;
-    //     // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    //   }
-  
-      // If everything goes according to plan, we want to clear out the input after a successful registration.
       setUserName('');
-      setPassword('');
+      setMessage('');
       setEmail('');
     };
-  
     return (
       <div style={styles.div}>
-        <p>Contact</p>
+        <p style={styles.p}>Contact</p>
         <form  className="form">
           <input
             value={email}
@@ -101,14 +92,14 @@ function Contact() {
             style={styles.form}
           />
           <br></br>
-          <input
+          <textarea
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="Message"
             style={styles.message}
-          />
+          ></textarea>
           <br></br>
           {errorMessage && (
           <div>

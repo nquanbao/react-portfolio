@@ -7,8 +7,8 @@ const styles = {
         marginRight: '300px'
     },
     h2: {
-        marginTop: '30px',
-        fontSize: '30px'
+        fontSize: '30px',
+        paddingTop: '20px'
     },
     img: {
         margin: '20px',

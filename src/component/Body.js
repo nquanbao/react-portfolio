@@ -24,21 +24,11 @@ export default function Body() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  const styles = {
-    render: {
-      hight: '100%',
-      marginTop: '30px',
-      marginBottom: '30px'
-    }
-  }
-
   return (
-    <div style={styles.div}>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div style={styles.render}>
-        {renderPage() }
-      </div>
-        <Footer  />
+    <div>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+          {renderPage() }
+          <Footer  />
     </div>
   );
 }

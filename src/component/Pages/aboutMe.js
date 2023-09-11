@@ -7,7 +7,7 @@ const styles = {
     marginRight: '100px'
   },
   h1: {
-    marginTop: '30px',
+    paddingTop: '30px',
     fontSize: '30px'
   },
   img: {

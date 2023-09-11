@@ -5,17 +5,15 @@ const styles = {
         marginLeft: '100px',
     },
     h2: {
-        marginTop: '30px',
-        fontSize: '30px'
+        fontSize: '30px',
+        paddingTop: '20px'
     },
     ol: {
         width: '600px',
-        backgroundColor: 'green',
         marginTop: '5px'
     },
     li: {
-        borderStyle: 'none',
-        backgroundColor: 'green'
+        borderStyle: 'none'
     },
     ul: {
         borderStyle: 'none'
@@ -29,37 +27,29 @@ function Resume () {
             <ol class="list-group list-group-numbered" style={styles.ol}>
                 <li class="list-group-item d-flex justify-content-between align-items-start" style={styles.li}>
                     <div class="ms-2 me-auto">
-                    <div class="fw-bold">Subheading</div>
+                    <div class="fw-bold">Front-end Proficiencies</div>
                         <ul class="list-group">
-                            <li >An item</li>
-                            <li >A second item</li>
-                            <li >A third item</li>
-                            <li >A fourth item</li>
-                            <li >And a fifth one</li>
+                            <li >HTML</li>
+                            <li >CSS</li>
+                            <li >JavaScript</li>
+                            <li >JQuery</li>
+                            <li >Responsive design</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
                         </ul>
                     </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-start" style={styles.li}>
                     <div class="ms-2 me-auto">
-                    <div class="fw-bold">Subheading</div>
+                    <div class="fw-bold">Back-end Proficiencies</div>
                         <ul class="list-group">
-                                <li >An item</li>
-                                <li >A second item</li>
-                                <li >A third item</li>
-                                <li >A fourth item</li>
-                                <li >And a fifth one</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start" style={styles.li}>
-                    <div class="ms-2 me-auto">
-                    <div class="fw-bold">Subheading</div>
-                        <ul class="list-group">
-                            <li >An item</li>
-                            <li >A second item</li>
-                            <li >A third item</li>
-                            <li >A fourth item</li>
-                            <li >And a fifth one</li>
+                                <li >APIs</li>
+                                <li >Node</li>
+                                <li >Express</li>
+                                <li >MySQL, Sequelize</li>
+                                <li >MongoDB, Mongoose</li>
+                                <li>REST</li>
+                                <li>GraphQL</li>
                         </ul>
                     </div>
                 </li>

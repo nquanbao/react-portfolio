@@ -2,8 +2,14 @@ body {
     background-image: url('../images/background.jpeg');
     background-size: cover;
     color: white;
+    height: 100%;
 };
-
-#nav {
-    background-image: url('../images/navbackground.jpeg');
-}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    display: block;
+ }
