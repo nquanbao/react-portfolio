@@ -50,7 +50,7 @@ function Contact() {
     const handleFormSubmit = (e) => {
       // Preventing the default behavior of the form submit (which is to refresh the page)
       e.preventDefault();
-      if(!validateEmail(email)) {
+      if(!validateEmail(email) && (email != "")) {
         setErrorMessage(
             'Email is invalid'
         );

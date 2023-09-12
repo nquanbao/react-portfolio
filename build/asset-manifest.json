@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/nquanbao/react-portfolio/static/css/main.6da57fdf.css",
-    "main.js": "/nquanbao/react-portfolio/static/js/main.836c7f72.js",
+    "main.css": "/nquanbao/react-portfolio/static/css/main.f47d8bce.css",
+    "main.js": "/nquanbao/react-portfolio/static/js/main.3516e63c.js",
     "static/media/navbackground.jpeg": "/nquanbao/react-portfolio/static/media/navbackground.ad40535717c06045cba6.jpeg",
+    "static/media/Deployedproject1.jpg": "/nquanbao/react-portfolio/static/media/Deployedproject1.da6dd677e303f393a8d5.jpg",
     "static/media/avatar.png": "/nquanbao/react-portfolio/static/media/avatar.35b838bb958bb3110df9.png",
     "static/media/background.jpeg": "/nquanbao/react-portfolio/static/media/background.5f7fef353830915006dc.jpeg",
     "index.html": "/nquanbao/react-portfolio/index.html",
-    "main.6da57fdf.css.map": "/nquanbao/react-portfolio/static/css/main.6da57fdf.css.map",
-    "main.836c7f72.js.map": "/nquanbao/react-portfolio/static/js/main.836c7f72.js.map"
+    "main.f47d8bce.css.map": "/nquanbao/react-portfolio/static/css/main.f47d8bce.css.map",
+    "main.3516e63c.js.map": "/nquanbao/react-portfolio/static/js/main.3516e63c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6da57fdf.css",
-    "static/js/main.836c7f72.js"
+    "static/css/main.f47d8bce.css",
+    "static/js/main.3516e63c.js"
   ]
 }

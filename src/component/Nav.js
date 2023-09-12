@@ -24,7 +24,7 @@ function Nav({ currentPage, handlePageChange }) {
       <div class="d-flex align-items-end" style={styles.div}>
         <li className="nav-item" style={styles.li}>
           <a
-            href="#aboutme"
+            href="#"
             onClick={() => handlePageChange('AboutMe')}
             className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
           >
@@ -33,7 +33,7 @@ function Nav({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item" style={styles.li}>
           <a
-            href="#portfolio"
+            href="#"
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
@@ -42,7 +42,7 @@ function Nav({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item" style={styles.li}>
           <a
-            href="#contact"
+            href="#"
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
           >
@@ -51,7 +51,7 @@ function Nav({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item" style={styles.li}>
           <a
-            href="#resume"
+            href="#"
             onClick={() => handlePageChange('Resume')}
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           >
