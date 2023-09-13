@@ -7,13 +7,12 @@ const styles = {
         marginTop: '100px'
     },
     a: {
-        fontSize: '60px',
+        fontSize: '40px',
         margin: '10px',
     }
 }
 function Footer() {
     return (
-        <footer class="footer">
         <div class="d-flex justify-content-center" >
             <a class="icon-link" href="https://github.com/nquanbao/react-portfolio" style={styles.a}>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -31,7 +30,6 @@ function Footer() {
             </svg>
             </a>
         </div>
-        </footer>
     )
 };
 

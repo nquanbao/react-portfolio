@@ -23,11 +23,16 @@ export default function Body() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
+  const style = {
+    minHeight: "75vh"
+  }
 
   return (
-    <div>
+    <div style={{position: 'relative'}}>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <div style={style}>
         {renderPage() }
+        </div>
         <Footer  />
     </div>
   );

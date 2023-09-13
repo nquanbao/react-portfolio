@@ -10,20 +10,19 @@ const styles = {
     },
     ol: {
         width: '600px',
-        marginTop: '5px'
+        marginTop: '20px',
+        marginLeft: '100px'
     },
     li: {
-        borderStyle: 'none'
-    },
-    ul: {
-        borderStyle: 'none'
+        borderStyle: 'none',
+        backgroundColor: '#cdd4c4'
     }
 }
 function Resume () {
     return (
         <div style={styles.div}>
             <h2 style={styles.h2}>Resume</h2>
-            <a href={avatar} download>Download!!!</a>
+            <a href={avatar} download style={{marginLeft: '20px'}}>Download my resume here!!!</a>
             <ol class="list-group list-group-numbered" style={styles.ol}>
                 <li class="list-group-item d-flex justify-content-between align-items-start" style={styles.li}>
                     <div class="ms-2 me-auto">
