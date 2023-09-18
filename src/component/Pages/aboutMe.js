@@ -13,10 +13,13 @@ const styles = {
   img: {
     borderRadius: '50%',
     width: '100px',
-    hight: '100px'
+    hight: '100px',
+    marginLeft: '15px'
   },
   p: {
-    marginTop: '20px'
+    marginTop: '25px',
+    width: '70%',
+    marginLeft: '70px'
   }
 }
 
